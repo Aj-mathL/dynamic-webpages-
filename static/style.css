@@ -91,6 +91,7 @@ body{
     border-radius: 12px;
     width: auto;
     height: 300px;
+    object-fit: cover;
 }
 
 .midrow{
@@ -133,6 +134,7 @@ body{
     width: 300px;
     margin-top: 20px;
     margin-left: 20%;
+    object-fit: cover;
 }
 
 .lastrow{
@@ -213,6 +215,7 @@ body{
 .lastrow .right img{
     width: 500px;
     border-radius: 10px;
+    object-fit: contain;
 }
 .footer{
     background-color: #1b2b2e;
