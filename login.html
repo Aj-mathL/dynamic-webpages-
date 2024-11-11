@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <style>
+        body{
+            background-color: #1c1c1c;
+            display: flex;
+            
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            border: 0px;
+            padding: 0px;
+
+        }
+
+        .card{
+            background-color: #17a351;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid rgb(60, 80, 102);
+            width: 300px;
+        }
+        .card:hover{
+            background-color: #17a390;
+        }
+
+        h2{
+            color: #3a49a1;
+            text-align: center;
+            margin-bottom: 40px; 
+        }
+
+        form{
+            
+            display: flex;
+            flex-direction: column;
+            border: 20px;
+        }
+
+        input{
+            
+            margin-bottom: 10px;
+            border-radius: 5px;
+            
+            border: 1px solid rgb(17, 17, 31);
+            padding: 10px;
+            background-color: #d1d4ee;
+        }
+        input:hover{
+            background-color: aquamarine;
+        }
+
+        button{
+            
+            border-radius: 5px;
+            border: 1px solid rgb(17, 17, 31);
+            padding: 7px;
+            background-color: #3a49a1;
+            margin-bottom: 20px;
+            margin-left: auto;
+            width: 100px;
+
+        }
+
+        button:hover{
+            background-color: #030727;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <h2>Login</h2>
+        <form>
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Password">
+            <button type="submit">Login</button>
+            
+            
+        </form>
+    </div>
+</body>
+
+</html>

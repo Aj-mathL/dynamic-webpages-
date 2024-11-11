@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signin page</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #3c3c3c;
+            margin: 0px;
+            padding: 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+
+        }
+        h2{
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .card{
+            background-color: #2f4749;
+            border-radius: 20px;
+            border: 1px solid grey;
+            padding: 20px;
+            width: 387px;
+            transition: 1s;
+        }
+        .card:hover{
+            background-color: rgb(74, 156, 85);
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+        }
+        input{
+            padding: 5px;
+            border-radius: 5px;
+            background-color: aquamarine;
+            margin-bottom: 5px;
+            transition: 1s;
+        }
+        button{
+            background-color: rgb(20, 199, 20);
+            transition: 1s;
+            border-radius: 5px;
+            padding: 5px;
+            border: 1px soldi green;
+        }
+        button:hover{
+            background-color: rgb(7, 99, 7);
+            color: white;
+        }
+       .password{
+        margin-left: 25%;
+       }
+       input:hover{
+        background-color: rgba(229, 241, 255, 0.74);
+       }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>Sign in page</h2>
+        <form >
+            
+                <input type="email" placeholder="Email" >
+
+            <label for="text" class="row">
+                <input type="text" placeholder="First Name"> 
+                <input type="text" name="" id="" placeholder="Last Name">
+            </label>
+            <label for="password" class="password">
+                <input type="password" placeholder="Password">
+            </label>
+
+            <button type="submit">Signin</button>
+        </form>
+    </div>
+</body>
+</html>

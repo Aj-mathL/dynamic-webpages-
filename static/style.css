@@ -1,0 +1,222 @@
+body{
+    background-color: #1c1c1c;
+    margin: 0;
+    padding: 0;
+    color: #f18d09;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.header{
+    border-radius: 16px;
+}
+.uphead{
+    /* background-color: #2117ac; */
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.uphead .right{
+    padding-top: 30px;
+    padding-right: 20px;
+    
+
+}
+.uphead .left{
+    padding-left: 20px;
+    
+}
+
+.navbar{
+    /* border: 1px solid red; */
+    border-radius: 8px;
+    background-color: #353442;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+    padding: 4px 50px 4px 50px;
+    background-color: #120e42;
+    margin: 2px 4px 2px 4px;
+    border: 2px solid #2e290a;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.navbar a:hover{
+    background-color: #081058;
+    border: 2px solid #2117ac;
+    color: #b1e2e6;
+    transition: 0.2s;
+    border-radius: 8px;
+}
+
+.navbar button{
+    color: #fff;
+    background-color: #1b8e99;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 2px;
+    font-size: 16px;
+    padding-bottom: 2px;
+    border-radius: 8px;
+    margin: 8px;
+    border: 2px solid #37a6aa;
+    transition: 0.5s;
+
+}
+
+.navbar button:hover{
+    background-color: #16e6db;
+}
+
+.photoGallery{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.photoGallery img{
+    border: 12px solid #121a3d;
+    border-radius: 12px;
+    width: auto;
+    height: 300px;
+}
+
+.midrow{
+    display: flex;
+
+}
+
+.midrow .box{
+    padding: 15px 15px 2px 15px;
+    margin-bottom: 2px;
+}
+
+.midrow .box h3{
+    text-align: center;
+    color: #2050d3;
+    
+    margin-bottom: 2px;
+}
+.lastrow button{
+    background-color: #be871f;
+    border: 2px solid #be871f;
+    border-radius: 5px;
+    margin-top: 2px;
+    
+}
+.midrow .box button{
+    background-color: #be871f;
+    border: 2px solid #be871f;
+    border-radius: 5px;
+    margin-top: 2px;
+    
+}
+.midrow .box p{
+    color: #16e6db;
+    border: 5px solid rgb(37, 182, 187);
+    border-radius: 5px;
+    padding: 8px;
+}
+.midrow .box img{
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 20%;
+}
+
+.lastrow{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lastrow .contact{
+    background-color: #475858;
+    border-radius: 8px;
+}
+.lastrow .contact h3{
+    text-align: center;
+    
+    
+}
+
+.lastrow .contact .con{
+    color: #1ec9c0;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.lastrow .contact .con input{
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.lastrow .contact .con input:hover{
+    background-color: #aad3d0;
+    
+}
+.lastrow .contact .con textarea:hover{
+    background-color: #aad3d0;
+    
+}
+.lastrow .contact .con textarea{
+    border-radius: 5px;
+}
+
+.lastrow .contact .con label{
+    text-align: center;
+}
+
+.lastrow .contact .con .row{
+    display: flex;
+    padding: 5px;
+}
+
+.lastrow .contact .con .row button{
+    margin-left: 20%;
+    padding: 2px 25px 2px 25px;
+    transition: 0.5s;
+}
+
+.lastrow .contact .con .row button:hover{
+    background-color: #16e6db;
+    border: 2px solid #16e6db;
+    transition: 0.5s;
+}
+
+
+.lastrow .left{
+    padding: 20px;
+
+    
+}
+
+.lastrow .right{
+    padding: 5px 20px 30px 20px;
+    margin-left: 50px;
+}
+.lastrow .right img{
+    width: 500px;
+    border-radius: 10px;
+}
+.footer{
+    background-color: #1b2b2e;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
