@@ -3,7 +3,11 @@ Here I make awesome webpage design for future use.
 
 <table>
 <thead>
-<tr>
+<tr 
+style=" 
+border = 1px solid red; 
+"
+>
     <td> Name </td> <td> Features</td>  </tr></thead>
 <tbody>
     <tr> <td> Page for web demo </td> 
